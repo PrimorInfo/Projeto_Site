@@ -1,14 +1,10 @@
 *{
-    font-family: arial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
 
-}
-
-body{
-    
-    
 }
 
 header {
@@ -17,30 +13,46 @@ header {
 header > h1 {
     font-size: 3em;
     font-weight: normal;
-    margin: 0px 20px 15px 600px;
+    padding: 20px;
+    text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
-header > img {
-    margin: 20px 20px 15px 600px;
+header > p{
+    text-align: center;
+    font-size: 1.5em;
+    color: darkblue;
+    line-height: 1.75em;
+    padding: 0px 0px 30px 0px;
 }
 
 nav {
     background-color: aliceblue;
-    padding: 10px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
-nav > a {
-    color: darkblue;
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
     padding: 15px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .3s;
+    
 }
 
 a:hover{
-    background-color: bisque;
-    color: rgb(10, 10, 78);
+    color:  rgb(94, 94, 252);
+    
 }
 
 main{
@@ -55,10 +67,6 @@ h1{
     font-size: 2em;
     color: darkblue;
 
-}
-img.lado{
-    float: auto;
-    
 }
 
 h2{
@@ -78,6 +86,7 @@ main p {
 footer {
     background-color: rgb(178, 222, 240);
     color: darkblue;
+    font-weight: 540;
     text-align: center;
     min-height: 50px;
     font-size: 1em;
