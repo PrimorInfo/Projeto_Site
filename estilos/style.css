@@ -8,7 +8,8 @@
 }
 
 header {
-    background-color: rgb(178, 222, 240);
+    /*background-color: rgb(178, 222, 240);*/
+    background-image: linear-gradient(to bottom, #B2DEF0, #F0F8FF );
 }
 header > h1 {
     font-size: 3em;
@@ -16,6 +17,7 @@ header > h1 {
     padding: 20px;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
 }
 header > p{
     text-align: center;
@@ -27,9 +29,11 @@ header > p{
 
 nav {
     background-color: aliceblue;
+    background-image: linear-gradient(to bottom, #B2DEF0,, #F0F8FF );
     padding: 20px;
 }
-a {
+
+nav a {
     text-decoration: none;
     color: darkblue;
     font-weight: bold;
@@ -57,10 +61,11 @@ a:hover{
 
 main{
     background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.097);
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    padding: 20px;
+    padding: 30px 50px 50px 50px;
     /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.603);*/
 }
 h1{
@@ -82,8 +87,15 @@ main p {
     line-height: 1.75em;
 }
 
+p  a {
+    font-size: .80em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 footer {
-    background-color: rgb(178, 222, 240);
+    /*background-color: rgb(178, 222, 240);*/
+    background-image: linear-gradient(to top, #B2DEF0, #F0F8FF );
     color: darkblue;
     font-weight: 540;
     text-align: center;
